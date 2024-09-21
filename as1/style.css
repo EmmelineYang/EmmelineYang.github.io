@@ -1,0 +1,54 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+#wrapper{
+    width: 800px;
+    margin:0 auto;
+}
+
+#banner {
+    background-color: rgba(179, 154, 91, 0.5);
+    width: 800px;
+    height: 100px;
+    clear:both;
+    top:0px;
+    position:fixed;
+}
+
+#banner-placeholder{
+    background-color: rgba(205, 214, 207, 0.683);
+    height: 100px;
+}
+
+.container {
+    overflow: hidden; /* Clear floats */
+  }
+
+#nav {
+    background-color: rgb(122, 187, 113);
+    width: 100px;
+    float:left;
+}
+
+#content {
+    background-color: rgb(220, 230, 206);
+    width: 600px;
+    float:left;
+    height: 1000px;
+}
+
+#supporting {
+    background-color: rgb(80, 136, 80);
+    width: 100px;
+    float:left;
+}
+
+#footer {
+    background-color: rgba(52, 72, 52,0.5);
+    width: 800px;
+    height: 50px;
+    clear: both;
+    margin:0 auto;
+}
