@@ -1,0 +1,60 @@
+#first {
+  height: 100vh;
+  background-image: url("https://news-data.pts.org.tw/media/190618/conversions/cover-webp.webp");
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+#second {
+  background-image: url("https://i.ibb.co/MMxYB4m/cover-webp.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  height: 200vh;
+  position: relative;
+}
+
+#third {
+  background-image: url("https://i.ibb.co/ch8WL9S/cover-webp.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  height: 150vh;
+  position: relative;
+}
+
+#head {
+  background-color: rgba(255, 255, 255, 0.75);
+  padding: 20px;
+  width: 1000px;
+  height: 200px;
+  color: black;
+}
+
+#footer {
+  background-color: rgb(175, 188, 199);
+  color: rgb(12, 22, 31);
+  height: 50px;
+  padding: auto;
+  position: relative;
+}
+
+.bg{
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.row {
+  margin: 0; /* 移除行的預設 margin */
+}
+
+.col-sm-6 {
+  padding: 0; /* 移除列的預設 padding */
+}
+
+.text-container {
+  position: sticky; 
+  top: 30%; 
+  z-index: 10;
+  color: white;
+}
