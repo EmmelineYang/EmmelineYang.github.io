@@ -1,40 +1,13 @@
-#first {
-  height: 100vh;
-  background-image: url("https://news-data.pts.org.tw/media/190618/conversions/cover-webp.webp");
-  background-size: cover;
-  background-attachment: fixed;
-}
-
-#second {
-  background-image: url("https://i.ibb.co/MMxYB4m/cover-webp.jpg");
-  background-size: cover;
-  background-attachment: fixed;
-  height: 200vh;
-  position: relative;
-}
-
-#third {
-  background-image: url("https://i.ibb.co/ch8WL9S/cover-webp.jpg");
-  background-size: cover;
-  background-attachment: fixed;
-  height: 150vh;
-  position: relative;
-}
-
-#head {
-  background-color: rgba(255, 255, 255, 0.75);
-  padding: 20px;
-  width: 1000px;
-  height: 200px;
+.topic {
   color: black;
-}
-
-#footer {
-  background-color: rgb(175, 188, 199);
-  color: rgb(12, 22, 31);
-  height: 50px;
-  padding: auto;
-  position: relative;
+  background-color: rgba(255, 255, 255, 0.5);
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 50px;
+  text-align: center;
+  z-index: 1000; /* 確保文字在最上層 */
 }
 
 .bg{
@@ -58,3 +31,14 @@
   z-index: 10;
   color: white;
 }
+
+.hidden {
+  display: none;
+}
+
+#footer {
+  background-color: rgb(175, 188, 199);
+  color: rgb(12, 22, 31);
+  height: 100px;
+  padding: auto;
+  position: relative;}
