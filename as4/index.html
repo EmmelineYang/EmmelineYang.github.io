@@ -1,1 +1,78 @@
+<!DOCTYPE html>
+<html>
 
+<head>
+  <title>置中範例</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css"> <!-- 連結到 style.css -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+
+<body>
+  <div class="topic">
+    <h1>揮不去的行人地獄污名</h1>
+    <h1>中市府啟動公車大執法</h1>
+  </div>
+
+  <div id="b75bf713-3253-4073-b678-de7fcd3fc340"></div>
+  <script>
+    (function () {
+      var namespace = '__twreporterEmbeddedData';
+      var packageName = 'scrollable-image';
+      if (typeof window !== 'undefined') {
+        if (!window[namespace]) {
+          window[namespace] = {};
+        }
+        if (window[namespace] && !window[namespace][packageName]) {
+          window[namespace][packageName] = [];
+        }
+      }
+      if (Array.isArray(window[namespace][packageName])) {
+        var data = { "uuid": "b75bf713-3253-4073-b678-de7fcd3fc340", "lazyload": true, "data": ["https:\u002F\u002Fi.ibb.co\u002FXVHszp3\u002F1027-2.jpg", "https:\u002F\u002Fi.ibb.co\u002FZ29cvt9\u002F1027-1.jpg"] }
+        window[namespace][packageName].push(data);
+      }
+    })();
+  </script>
+  <script type="text/javascript"
+    src="https://unpkg.com/@twreporter/scrollable-image@1.2.0-rc.0/dist/main-e658f7f28ed76e01c75e.bundle.js">
+  </script>
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      const topic = document.querySelector('.topic');
+      const row = document.querySelector('.row');
+  
+      const observer = new IntersectionObserver(entries => {
+        entries.forEach(entry => {
+          if (entry.isIntersecting) {
+            topic.classList.add('hidden'); // 當 .row 進入視窗範圍，隱藏 .topic
+          } else {
+            topic.classList.remove('hidden'); // 離開範圍則顯示 .topic
+          }
+        });
+      });
+  
+      observer.observe(row);
+    });
+  </script>  
+
+  <div class="row no-gutters">
+    <div class="col-sm-4 sticky-top bg"
+      style="height: 100vh; background-image: url('https://s.yimg.com/ny/api/res/1.2/zEKT.DciltXYuGwi.lOjpw--/YXBwaWQ9aGlnaGxhbmRlcjt3PTY0MDtoPTQ4MA--/https://media.zenfs.com/ko/chinatimes.com.tw/1baa8ebb5888c393bd2d548fe86d53de');">
+    </div>
+    <div class="col-sm-8" style="color: black; background-color: rgba(255, 255, 255, 0.8); padding: 20px;">
+      <h2>台中行人交通事故死亡人數 為2024前半年全台第1</h2>
+      <p>封面是位於捷運市政府站旁的台灣大道與文心路二段路口，同時也是台中最常發生交通事故的馬路。</p>
+      <p>根據交通部公布的最新數據，今（2024）年1到7月台中市行人交通事故死亡人數，仍是全國榜首，還比去年同期增加了6人，死亡人數為32人。整體交通事故死亡人數175人，雖比去年同期減少26人，但仍是全國最高。</p>
+      <p>台市交通局回應，將會盤點行人通行量大地點，透過道路工程及調整號誌時制等作為，持續加強交通事故熱區的改善。警方也表示，將無限期展開公車大執法，更增設20處科技執法。</p>
+      <p>交通部表示，由於台中市10月大型事故多，下（11）月須赴中央道安會報專案報告，這也是交通部首次要求縣市報告改善作為。</p>
+      <p>究竟，該扭轉台灣行人地獄的污名？又能如何快速減少車禍事故、提高駕駛與行人的用路觀念？仍未見有效的解方。</p>
+    </div>
+  </div>
+  <!-- 網頁底部 -->
+  <div id="footer">
+    <p>楊子瑩／整理報導 </p>
+    <p>Google Earth、Yahoo新聞網／圖片</p>
+  </div> 
+</body>
+
+</html>
