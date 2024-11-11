@@ -1,1 +1,42 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Leading Section with Video</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
 
+<body>
+  <div class="container-fluid">
+    <!-- leading section (200vh背景圖) -->
+    <div class="section" style="height: 200vh; background-image: url('https://web.cw.com.tw/climate-2020/landing/charts/img01.jpg'); background-size: cover; background-position: center;">
+      <h1>歐盟警告：2024年將成為有史以來最熱一年</h1>
+    </div>
+
+    <!-- Video1 -->
+    <div class="video-container" id="video1-container">
+      <video id="video1" class="background-video" src="https://web.cw.com.tw/climate-2020/landing/cover-mobile.mp4" muted></video>
+    </div>
+
+    <!-- middle section (200vh背景圖) -->
+    <div class="section" style="height: 200vh; background-image: url('https://web.cw.com.tw/climate-2020/landing/charts/img01.jpg'); background-size: cover; background-position: center;">
+      <h1>暖化溫度首次超過1.5°C，全球暖化已惡化為全球「熱化」。</h1>
+    </div>
+
+    <!-- Video2 -->
+    <div class="video-container" id="video2-container">
+      <video id="video2" class="background-video" src="https://web.cw.com.tw/climate-2020/landing/cover-mobile.mp4" muted></video>
+    </div>
+
+    <!-- ending section (200vh背景圖) -->
+    <div class="section" style="height: 200vh; background-image: url('https://web.cw.com.tw/climate-2020/landing/charts/img01.jpg'); background-size: cover; background-position: center;">
+      <h1>是時候，反問自己想要什麼樣的未來？</h1>
+    </div>
+  </div>
+
+  <!-- 引入外部 JavaScript -->
+  <script src="script.js"></script>
+</body>
+</html>

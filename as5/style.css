@@ -1,0 +1,45 @@
+/* 基本樣式 */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container-fluid {
+  width: 100%;
+}
+
+.section {
+  height: 200vh;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  text-align: center;
+}
+
+#leading-section {
+  background-image: url('https://web.cw.com.tw/climate-2020/landing/charts/img01.jpg');
+}
+
+#middle-section {
+  background-image: url('https://web.cw.com.tw/climate-2020/landing/charts/img01.jpg');
+}
+
+#ending-section {
+  background-image: url('https://web.cw.com.tw/climate-2020/landing/charts/img01.jpg');
+}
+
+.video-container {
+  height: 100vh;
+  width: 100%;
+  background-color: black; /* 當影片未載入時的背景 */
+}
+
+.background-video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
